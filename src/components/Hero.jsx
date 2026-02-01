@@ -1,4 +1,5 @@
 import React from 'react';
+import heroImg from '../assets/lallo-vigil-comic.png';
 
 const Hero = () => {
     return (
@@ -38,7 +39,7 @@ const Hero = () => {
                         <div className="relative w-72 h-72 md:w-96 md:h-96">
                             <div className="absolute inset-0 border-2 border-cyan-400 rounded-lg transform translate-x-4 translate-y-4"></div>
                             <div className="absolute inset-0 bg-surface rounded-lg overflow-hidden grayscale hover:grayscale-0 transition-all duration-300">
-                                <img src="src/assets/lallo-vigil-comic.png" alt="Animated photo of Lallo Vigil" />
+                                <img src={heroImg} alt="Animated photo of Lallo Vigil" />
                                 <div className="w-full h-full bg-gradient-to-br from-surface to-slate-700 flex items-center justify-center">
                                     <span className="text-6xl">👨‍💻</span>
                                 </div>

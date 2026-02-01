@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImg from '../assets/lallo-vigil.jpg';
 
 const About = () => {
     return (
@@ -29,7 +30,7 @@ const About = () => {
                         <div className="relative group w-64 h-64">
                             <div className="absolute inset-0 border-2 border-cyan-400 rounded-lg transform translate-x-3 translate-y-3 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
                             <div className="absolute inset-0 bg-slate-700 rounded-lg overflow-hidden group-hover:bg-slate-600 transition-colors duration-300 flex items-center justify-center">
-                                <img src="src/assets/lallo-vigil.jpg" alt="Lallo Vigil" />
+                                <img src={profileImg} alt="Lallo Vigil" />
                             </div>
                         </div>
                     </div>
