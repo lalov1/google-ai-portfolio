@@ -8,11 +8,11 @@ const Hero = () => {
                     <div className="md:w-1/2 mb-12 md:mb-0">
                         <h2 className="text-cyan-400 font-medium mb-4 text-lg">Hi, my name is</h2>
                         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-                            Alex Developer<span className="text-cyan-400">.</span>
+                            Lallo Vigil<span className="text-cyan-400">.</span>
                         </h1>
-                        <h3 className="text-3xl md:text-5xl font-bold text-gray-400 mb-8">
+                        <h2 className="text-3xl md:text-5xl font-bold text-gray-400 mb-8">
                             I build things for the web.
-                        </h3>
+                        </h2>
                         <p className="text-gray-400 text-lg max-w-lg mb-10 leading-relaxed">
                             I'm a frontend developer specializing in building exceptional digital experiences.
                             Currently, I'm focused on creating accessible, human-centered products using
@@ -38,7 +38,7 @@ const Hero = () => {
                         <div className="relative w-72 h-72 md:w-96 md:h-96">
                             <div className="absolute inset-0 border-2 border-cyan-400 rounded-lg transform translate-x-4 translate-y-4"></div>
                             <div className="absolute inset-0 bg-surface rounded-lg overflow-hidden grayscale hover:grayscale-0 transition-all duration-300">
-                                {/* Placeholder for profile image */}
+                                <img src="src/assets/lallo-vigil-comic.png" alt="Animated photo of Lallo Vigil" />
                                 <div className="w-full h-full bg-gradient-to-br from-surface to-slate-700 flex items-center justify-center">
                                     <span className="text-6xl">👨‍💻</span>
                                 </div>
