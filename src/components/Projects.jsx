@@ -1,4 +1,10 @@
 import React from 'react';
+import utsaImg from '../assets/utsa.jpg';
+import uiwImg from '../assets/uiw.jpg';
+import csuPuebloImg from '../assets/csu-pueblo.jpg';
+import interactiveMapImg from '../assets/interactive-map.jpg';
+import abodioImg from '../assets/abodio.jpg';
+import hitsTheSpotImg from '../assets/hits-the-spot.jpg';
 
 const Projects = () => {
     const projects = [
@@ -7,42 +13,42 @@ const Projects = () => {
             description: "I currently work at UT San Antonio as a Sr. Web Developer. I help implement new templates inside Cascade CMS by building components using the Velocity programming language. I also contribute to the Fractal Design Library System by opening and addressing issues on the GitHub repository.",
             tags: ["Velocity", "Bootstrap", "jQuery", "Cascade CMS", "fractal.js", "handlebars.js"],
             links: { demo: "https://utsa-asc.github.io/college-dls/", repo: "https://github.com/utsa-asc/college-dls" },
-            img: "src/assets/utsa.jpg"
+            img: utsaImg
         },
         {
             title: "University of the Incarnate Word",
             description: "I worked at the University of the Incarnate Word as the Web Manager, where I helped oversee the operations of the website and mobile app. I've assisted in many large projects such as website redesign and helping implement campus services such as a calendaring system. We use Cascade CMS, which is mainly for Higher Education websites.",
             tags: ["Cascade CMS", "JavaScript", "HTML/CSS", "Bootstrap", "jQuery"],
             links: { demo: "https://www.uiw.edu/" },
-            img: "src/assets/uiw.jpg"
+            img: uiwImg
         },
         {
             title: "Colorado State University-Pueblo",
             description: "I worked at Colorado State University-Pueblo for over 15 years, including four as a student work-study for the Webmaster on campus. During my tenure at the university, I maintained the website and worked as a Frontend Developer creating forms and applications for the Student, Faculty, and Staff Portals.",
             tags: ["jQuery", "Bootstrap", "JavaScript", "HTML/CSS", "Git", "GitHub"],
             links: { demo: "https://www.csupueblo.edu/", repo: "https://github.com/lalov1/bootstrap-forms/blob/master/index.html" },
-            img: "src/assets/csu-pueblo.jpg"
+            img: csuPuebloImg
         },
         {
             title: "Interactive Campus Map",
             description: "This is an interactive campus map I helped create at CSU-Pueblo using Leaflet, jQuery, and Bootstrap.",
             tags: ["JavaScript", "HTML/CSS", "LeafletJS", "jQuery", "Bootstrap"],
             links: { demo: "https://www.csupueblo.edu/about/campus/interactive-map.html", repo: "https://github.com/lalov1/campus-map" },
-            img: "src/assets/interactive-map.jpg"
+            img: interactiveMapImg
         },
         {
             title: "Abodio",
             description: "This is a project we worked on during our second year in the GoCodeColorado competition. The project helps an individual to see if they could put an accessory dwelling unit (tiny home) on their property. We ended up being picked as one of the three teams that won the competition.",
             tags: ["LeafletJS", "jQuery", "Bootstrap"],
             links: { demo: "https://www.sos.state.co.us/pubs/newsRoom/pressReleases/2018/PR20180608GoCodeWinners.html" },
-            img: "src/assets/abodio.jpg"
+            img: abodioImg
         },
         {
             title: "Hits the Spot",
             description: "A project we built for the GoCodeColorado competition, which we were a runner up.",
             tags: ["LeafletJS", "jQuery", "Bootstrap"],
             links: { demo: "https://gazette.com/business/colordo-springs-teams-developing-apps-for-restaurants-water-rights-advance/article_0a1f6e48-8726-5e67-a3c1-3e0cf1b6b4b8.html" },
-            img: "src/assets/hits-the-spot.jpg"
+            img: hitsTheSpotImg
         }
     ];
 
